@@ -72,3 +72,56 @@ nav {
 .heading {
     font-size: 48px;
 }
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: transparent;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+}
+
+.input-container legend {
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+}
+
+.input-container input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    padding: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+.input-container input:focus {
+    outline: none;
+}
+
+.get-started-btn {
+    width: 414px;
+    height: 65px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 50px;
+    background: #7352FF;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+    font-family: "inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.get-started-btn:hover {
+    transform: scale(1.1);
+}
+
